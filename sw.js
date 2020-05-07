@@ -1,4 +1,4 @@
-// imports
+// imports el archivo para las utilidades;
 importScripts('js/sw-utils.js');
 
 const STATIC_CACHE    = 'static-v2';
