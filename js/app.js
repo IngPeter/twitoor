@@ -1,5 +1,5 @@
 var url = window.location.href;
-vat swLocation = '/twittor/sw.js';
+var swLocation = '/twittor/sw.js';
 
 if(navigator.serviceWorker){
 
@@ -9,7 +9,7 @@ if(navigator.serviceWorker){
     navigator.serviceWorker.register(swLocation);
 }
 
-
+// esto es una modificación
 // Referencias de jQuery
 
 var titulo      = $('#titulo');
